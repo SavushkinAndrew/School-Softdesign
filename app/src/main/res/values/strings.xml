@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">School-Softdesign</string>
+    <string name="drawer.profile">Профиль</string>
+    <string name="drawer.contacts">Контакты</string>
+    <string name="drawer.team">Команда</string>
+    <string name="drawer.tasks">Задачи</string>
+    <string name="drawer.setting">Настройки</string>
+    <string name="fragment.contacts.description">Здесь будут контакты</string>
+    <string name="fragment.profile.description">Здесь будет профиль</string>
+    <string name="fragment.settings.description">Здесь будут настройки</string>
+    <string name="fragment.task.description">Здесь будут задания</string>
+    <string name="fragment.team.description">Здесь будет команда</string>
+    <string name="profile_name">Savushkin Andrew</string>
+    <string name="profile_email">savushkinandrew@gmail.com</string>
 </resources>
