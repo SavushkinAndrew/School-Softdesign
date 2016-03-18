@@ -12,7 +12,7 @@ import com.softdesign.school.R;
 /**
  * Created by Prosto on 27.01.2016.
  */
-public class SettingsFraagment extends Fragment {
+public class SettingsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

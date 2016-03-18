@@ -1,7 +1,7 @@
-package school.softdesign.com;
+package com.softdesign.school.utils;
 import android.util.Log;
 
-import school.softdesign.com.school_softdesign.BuildConfig;
+
 
 
 /**
