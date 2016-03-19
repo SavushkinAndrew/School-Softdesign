@@ -5,7 +5,7 @@
         android:id="@+id/drawer_profile"
         android:checked="true"
         android:title="@string/drawer.profile"
-        android:icon="@drawable/ic_profile_24dp"/>
+        android:icon="@drawable/ic_person_24dp"/>
     <item
         android:id="@+id/drawer_contacts"
         android:title="@string/drawer.contacts"

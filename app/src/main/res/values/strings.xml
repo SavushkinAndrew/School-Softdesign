@@ -12,4 +12,21 @@
     <string name="fragment.team.description">Здесь будет команда</string>
     <string name="profile_name">Savushkin Andrew</string>
     <string name="profile_email">savushkinandrew@gmail.com</string>
+
+    <string name="ff_regular">sans-serif</string>
+    <string name="ff_medium">sans-serif-medium</string>
+
+    <string name="fragment.profile.phone.value">89613885249</string>
+    <string name="fragment.profile.phone.label.mobile">Мобильный</string>
+    <string name="fragment.profile.title">Савушкин Андрей</string>
+    <string name="fragment.profile.email.value">savushkinandrew@gmail.com</string>
+    <string name="fragment.profile.email.label">E-mail</string>
+    <string name="fragment.profile.vk.value">vk.com/savushkinandrew</string>
+    <string name="fragment.profile.vk.label">Профиль в VK</string>
+    <string name="fragment.profile.git.value">github.com/school-softdesign/School-softdesign</string>
+    <string name="fragment.profile.git.label">Репозиторий</string>
+    <string name="fragment.profile.create.git.label">Название репозитория</string>
+    <string name="fragment.profile.bio.value">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.</string>
+    <string name="fragment.profile.bio.label">О себе</string>
+
 </resources>
