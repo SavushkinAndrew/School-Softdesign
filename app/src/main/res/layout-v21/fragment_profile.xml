@@ -367,11 +367,9 @@
                 android:id="@+id/frame_github_view_wrapper"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/relative_wrapper_icon_right"
-                android:layout_alignParentEnd="false"
-                android:layout_alignParentStart="false"
                 android:layout_alignParentTop="false"
                 android:layout_marginLeft="15dp"
+                android:layout_alignParentEnd="true"
                 android:layout_toEndOf="@+id/relative_github_icon_left">
 
                 <LinearLayout
@@ -393,7 +391,7 @@
                         android:textColorHint="@color/grey"
                         android:textSize="@dimen/size_text_profile" />
 
-                    <EditText
+                    <!--<EditText
                         android:id="@+id/et_github_value"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -404,7 +402,7 @@
                         android:textColor="@color/cardview_dark_background"
                         android:textColorHint="@color/grey"
                         android:textSize="@dimen/size_text_profile" />
-
+-->
                 </LinearLayout>
 
                 <LinearLayout
@@ -424,17 +422,33 @@
                     <TextView
                         android:id="@+id/txt_github_value"
                         style="@style/font.medium"
-                        android:layout_gravity="left"
-                        android:text="@string/fragment.profile.git.value"
+                        android:text=""
                         android:textAlignment="viewStart"
                         tools:ignore="RtlCompat,UnusedAttribute" />
+
                 </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative_wrapper_icon_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="right">
+
+                    <ImageView
+                        android:id="@+id/icon_github_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_visibility_24dp" />
+                </RelativeLayout>
+
             </FrameLayout>
 
-            <RelativeLayout
+           <!-- <RelativeLayout
                 android:id="@+id/relative_wrapper_icon_right"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="false"
                 android:gravity="center_vertical">
@@ -445,7 +459,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:src="@drawable/ic_visibility_24dp" />
-            </RelativeLayout>
+            </RelativeLayout>-->
 
             <LinearLayout
                 android:id="@+id/line_github"
