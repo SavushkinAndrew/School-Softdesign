@@ -21,7 +21,7 @@ import android.view.MenuItem;
 import com.softdesign.school.R;
 
 import com.softdesign.school.ui.fragments.ContactsFragment;
-import com.softdesign.school.ui.fragments.ProfileFragment;
+import com.softdesign.school.ui.fragments.ProfileFragment2;
 
 import com.softdesign.school.ui.fragments.SettingsFragment;
 import com.softdesign.school.ui.fragments.TaskFragment;
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         mAppBarLayout.setExpanded(true);
 
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new ProfileFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new ProfileFragment2()).commit();
         }
     }
 
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.drawer_profile:
-                        mFragment = new ProfileFragment();
+                        mFragment = new ProfileFragment2();
                         break;
                     case R.id.drawer_contacts:
                         mFragment = new ContactsFragment();
@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         Fragment findingFragment = (Fragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
-        if (findingFragment != null && findingFragment instanceof ProfileFragment) {
+        if (findingFragment != null && findingFragment instanceof ProfileFragment2) {
             getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
         }
     }
