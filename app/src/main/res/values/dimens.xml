@@ -36,4 +36,10 @@
     <dimen name="font_normal">14sp</dimen>
     <dimen name="font_small">12sp</dimen>
 
+
+    <dimen name="image_size">40dp</dimen>
+
+
+    <dimen name="profile_line">16dp</dimen>
+
 </resources>
