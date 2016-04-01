@@ -21,6 +21,7 @@ import butterknife.Bind;
 
 public class ProfileGitAdapter extends BaseAdapter {
 
+
     MainActivity mContext;
     List<String> mGitValues;
     LayoutInflater mInflater;
@@ -63,8 +64,6 @@ public class ProfileGitAdapter extends BaseAdapter {
         if (editText != null){
             editText.setText(mGitValues.get(position));
         }
-
-        ImageView iconDeleteItem = (ImageView) itemView.findViewById(R.id.ic_delete_item_list);
 
         return itemView;
     }

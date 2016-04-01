@@ -2,7 +2,7 @@ package com.softdesign.school.utils;
 
 public final class ConstantManager {
 
-    public static final String WORK_STATE = "work";
+    public static final String EDIT_STATE = "edit";
     public static final String WAIT_STATE = "wait";
 
 

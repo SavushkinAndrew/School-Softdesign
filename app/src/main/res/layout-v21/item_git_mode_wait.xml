@@ -11,9 +11,9 @@
         android:layout_height="match_parent"
         android:id="@+id/linearLayout"
         android:gravity="center_vertical"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/git_image_right"
+        android:layout_marginRight="@dimen/spacing_normal">
 
         <TextView
             android:id="@+id/txt_git_label"
@@ -35,13 +35,9 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+       style="@style/icon.right"
         android:id="@+id/git_image_right"
         android:src="@drawable/ic_visibility_24dp"
-        android:layout_gravity="right"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="16dp" />
+         />
 
 </RelativeLayout>
